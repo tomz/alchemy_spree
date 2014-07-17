@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 group :developmemt, :test do
-  #gem "spree", github: 'spree/spree', branch: 'master'
+  gem "spree", github: 'spree/spree'#, branch: 'master'
   gem 'money', '~> 5.1'
   gem 'sqlite3'
 end
